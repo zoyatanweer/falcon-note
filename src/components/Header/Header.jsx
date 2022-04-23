@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <nav className="navigation-container">
         <div className="nav-brand title-theme">
-          <Link to="/">Falcon Store</Link>
+          <Link to="/">Falcon Note</Link>
         </div>
         <li className="list-item list-non-bullet">
           <NavLink to="/">SIGN UP</NavLink>
