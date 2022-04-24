@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import homeImage from "../../Assets/Images/homepage.png";
+import homeImage from "../../Assets/Images/homepageImg.png";
 import "../../index";
 import "../Homepage/Homepage.css";
 
@@ -17,7 +17,7 @@ const Homepage = () => {
         </p>
         <button class="btn box-shadow btn-primary">Create Note</button>
       </div>
-      <img className="homepage-cover" src={homeImage} />
+      <img className="homepage-cover" src={homeImage} alt="homepage image" />
     </div>
   );
 };

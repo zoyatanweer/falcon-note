@@ -1,6 +1,4 @@
-import { Header } from "./components/Header/Header";
-import { Homepage } from "./components/Homepage/Homepage";
-import { Footer } from "./components/Footer/Footer";
+import { Header, Homepage, Footer } from "./components";
 
 import "./index.css";
 

@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 0.5rem; */
   margin: 1rem 2.5rem 1rem;
 }
 .grid-left {
@@ -10,13 +9,9 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
 
   max-width: 50%;
   max-height: 100%;
-}
-.mg-sm {
-  margin: 2rem;
 }
 .heading-h1,
 .para-medium,
@@ -24,7 +19,6 @@
   margin: 1rem;
   padding: 1rem auto 1rem;
 }
-
 .homepage-cover {
   max-width: 50%;
   max-height: 100%;
@@ -39,6 +33,5 @@
   align-items: center;
 }
 .btn-primary:hover {
-  /* background-color: var(--secondary-color); */
-  background-color: #d81159;
+  background-color: var(--btn-hover);
 }

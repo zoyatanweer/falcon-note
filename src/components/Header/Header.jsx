@@ -5,16 +5,14 @@ import "../Header/Header.css";
 
 const Header = () => {
   return (
-    <>
-      <nav className="navigation-container">
-        <div className="nav-brand title-theme">
-          <Link to="/">Falcon Note</Link>
-        </div>
-        <li className="list-item list-non-bullet">
-          <NavLink to="/">SIGN UP</NavLink>
-        </li>
-      </nav>
-    </>
+    <nav className="navigation-container">
+      <div className="nav-brand title-theme">
+        <Link to="/">Falcon Note</Link>
+      </div>
+      <li className="list-item list-non-bullet">
+        <NavLink to="/">SIGN UP</NavLink>
+      </li>
+    </nav>
   );
 };
 

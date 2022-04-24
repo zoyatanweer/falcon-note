@@ -3,12 +3,13 @@
   background-color: var(--footer-bg-color);
   color: var(--background-color);
   font-size: 2rem;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   height: 16rem;
   padding: 12rem;
-  text-align: center;
 }
 .footer-title {
   font-weight: 400;
@@ -35,7 +36,6 @@ ul li.footer-item {
 }
 .footer-copyright {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }

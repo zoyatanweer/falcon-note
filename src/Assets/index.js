@@ -1,3 +1,3 @@
-import homepage from "./Images/homepage.jpg";
+import homepageImg from "./Images/homepageImg.jpg";
 
-export { homepage };
+export { homepageImg };

@@ -47,6 +47,7 @@ picture {
   --secondary-color: #ff4d6d;
   --background-color: #f8f9fa;
   --light-theme-color: #000000;
+  --btn-hover: #d81159;
   --navigation-container-shadow: #6c757d;
   --navigation-color: #212529;
   --desktop-searchbar-bg: #e9ecef;
@@ -118,7 +119,6 @@ mg-sm {
 }
 .navigation-container {
   background-color: var(--background-color);
-  /* box-shadow: 10px 10px 10px -12px var(--navigation-container-shadow); */
   color: var(--primary-color);
   display: flex;
   justify-content: space-around;
@@ -155,14 +155,12 @@ ul {
 /* desktop-query */
 .right-nav {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
 .desktop-query {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin: 1rem auto 1rem 0.5rem;
@@ -173,6 +171,7 @@ ul {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   font-size: 1.5rem;
+
   margin: 5px 15px 5px 0;
   padding: 5px;
   width: 20rem;
@@ -182,7 +181,6 @@ ul {
 /* action-btn */
 .desktop-action-btn {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin: 1rem auto 1rem 0.5rem;
