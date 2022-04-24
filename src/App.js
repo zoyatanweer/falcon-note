@@ -1,8 +1,15 @@
-import { Routes, Route } from "react-router-dom";
+import { Header, Homepage, Footer } from "./components";
+
 import "./index.css";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Header />
+      <Homepage />
+      <Footer />
+    </>
+  );
 }
 
 export default App;

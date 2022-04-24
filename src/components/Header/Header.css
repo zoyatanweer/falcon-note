@@ -1,0 +1,11 @@
+/* navigation */
+.right-nav li {
+  padding: 0;
+  width: 10rem;
+}
+.single-action-btn {
+  position: relative;
+}
+.right-nav-img:hover {
+  fill: var(--primary-color);
+}

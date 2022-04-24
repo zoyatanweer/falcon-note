@@ -1,0 +1,213 @@
+@import url("https://falcon-ui-zoya.netlify.app/styles.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  line-height: 190%;
+  background-color: var(--colour-black-one);
+  color: var(--colour-text-white);
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+:root {
+  --primary-color: #f72585;
+  --secondary-color: #ff4d6d;
+  --background-color: #f8f9fa;
+  --light-theme-color: #000000;
+  --btn-hover: #d81159;
+  --navigation-container-shadow: #6c757d;
+  --navigation-color: #212529;
+  --desktop-searchbar-bg: #e9ecef;
+  --desktop-searchbar-border: #f7f7f7;
+  --card-shadow: #adb5bd;
+  --form-bg-color: #ffffff;
+  --form-input-border-color: #ced4da;
+  --login-signup-page: #f3ebeb;
+  --login-btn-border: #fb6376;
+  --login-btn-bg-color-hover: #e63961;
+  --footer-bg-color: #023047;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+mg-sm {
+  margin: 2rem;
+}
+
+/* theme starts*/
+.light-theme {
+  --bg: var(--background-color);
+  --text: var(--light-theme-color);
+  --nav-brand: var(--primary-color);
+  background-color: var(--bg);
+  color: var(--text);
+}
+.dark-theme {
+  --bg: var(--navigation-color);
+  --text: var(--background-color);
+  --nav-brand: var(--primary-color);
+  background-color: var(--bg);
+  color: var(--text);
+}
+/* theme ends */
+
+/* desktop-nav */
+.link {
+  color: var(--navigation-color);
+  padding: 0;
+  margin-right: 2.5rem;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.navigation-container .link {
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: 1.8rem;
+}
+.navigation-container .link:hover {
+  color: var(--primary-color);
+}
+.list-non-bullet {
+  list-style: none;
+}
+.list-item {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.5rem;
+}
+.list-item:hover {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.navigation-container {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+.navigation-container .nav-brand {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: left;
+}
+.nav-brand {
+  color: var(--primary-color);
+  text-align: left;
+  margin: 1rem auto 1rem 4.8rem;
+  cursor: pointer;
+}
+.navigation-container .title-theme a {
+  color: var(--primary-color);
+}
+.navigation-container .link-active {
+  color: var(--primary-color);
+}
+.navigation-container .nav-pills {
+  text-align: right;
+}
+ul {
+  padding-inline-start: 0px;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+/* desktop-query */
+.right-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.desktop-query {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem auto 1rem 0.5rem;
+}
+.desktop-searchbar {
+  background-color: var(--desktop-searchbar-bg);
+  border: 0px solid var(--desktop-searchbar-border);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 1.5rem;
+
+  margin: 5px 15px 5px 0;
+  padding: 5px;
+  width: 20rem;
+  line-height: 1;
+}
+
+/* action-btn */
+.desktop-action-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem auto 1rem 0.5rem;
+}
+.single-action-btn,
+.profile {
+  position: relative;
+}
+.right-nav-img {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 2.5rem;
+}
+.right-nav-img:hover {
+  fill: var(--primary-color);
+}
+.img-search {
+  background-color: var(--desktop-searchbar-bg);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 2.73rem;
+  width: 3rem;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 5px;
+}
+.on-btn {
+  color: var(--primary-color);
+  fill: var(--primary-color);
+}
