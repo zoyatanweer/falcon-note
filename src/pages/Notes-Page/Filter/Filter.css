@@ -1,0 +1,76 @@
+/* filter-section */
+.filter-section {
+  flex-direction: column;
+  padding: 5px 1rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px var(--card-shadow);
+}
+.filter-divider {
+  background-color: var(--primary-color);
+  height: 1.5px;
+  width: 90%;
+}
+.filter-section-title {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.filter-item {
+  font-weight: 400;
+  padding: 5px;
+}
+.filter-item:hover {
+  color: var(--text);
+}
+.filter-item-title {
+  border-radius: 25px;
+  margin: 1rem;
+  padding: 2px 8px 2px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter-item-title:hover {
+  cursor: pointer;
+  cursor: pointer;
+  font-weight: 400;
+}
+.para-xsmall {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* filter-item-title */
+.old-date {
+  background-color: #fbf8cc;
+}
+.new-date {
+  background-color: #c8e7ff;
+}
+.tag-work {
+  background-color: #9bf6ff;
+}
+.tag-exercise {
+  background-color: #ffd6a5;
+}
+.tag-health {
+  background-color: #ffc6ff;
+}
+.tag-chores {
+  background-color: #fdffb6;
+}
+.prio-low {
+  background-color: #caffbf;
+}
+.prio-medium {
+  background-color: #a0c4ff;
+}
+.prio-high {
+  background-color: #ffadad;
+}
+
+.filter-radio {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}

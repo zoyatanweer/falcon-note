@@ -15,7 +15,9 @@ const Homepage = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam.
         </p>
-        <button class="btn box-shadow btn-primary">Create Note</button>
+        <Link to="/notes">
+          <button class="btn box-shadow btn-primary">Create Note</button>
+        </Link>
       </div>
       <img className="homepage-cover" src={homeImage} alt="homepage image" />
     </div>

@@ -1,0 +1,152 @@
+/* notes */
+
+.notes-container {
+  flex-direction: column;
+}
+.note-btn {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.add-new-note {
+  background-color: var(--background-color);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+
+  height: 65vh;
+  width: 52vw;
+  margin-top: 5rem;
+
+  flex-direction: column;
+  position: relative;
+}
+.input-fields-div {
+  justify-content: space-between;
+  position: relative;
+}
+.input {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 #e9ecef;
+
+  padding: 1rem;
+  height: 7vh;
+  width: 28vw;
+}
+.input-label {
+  font-weight: 600;
+}
+
+/* icons choices */
+.right-div {
+  position: absolute;
+  top: -15px;
+  right: 0;
+}
+.right-side-icons {
+  cursor: pointer;
+  margin: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  justify-content: right;
+}
+.right-side-icons:hover,
+.color-icon:hover {
+  background-color: var(--background-color);
+  border-radius: 50%;
+}
+
+/* notes field */
+.note-field {
+  flex-direction: column;
+}
+.note-footer {
+  justify-content: space-between;
+}
+.color-picker-btn {
+  justify-content: center;
+}
+.color-icon {
+  cursor: pointer;
+  margin-left: 1rem;
+}
+.textarea {
+  font-size: 2rem;
+  padding: 1rem;
+  width: 50vw;
+  margin-left: 0;
+}
+.add-note-btn {
+  justify-content: flex-end;
+}
+
+/* color-picker */
+.colored-note {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.colored-note:hover,
+.priority-options:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+.tag-options:hover,
+.priority-options:hover {
+  font-weight: 600;
+  cursor: pointer;
+}
+.tag-options,
+.priority-options {
+  border-radius: 10px;
+  padding: 3px;
+  margin: 5px;
+}
+
+.color-choices {
+  background-color: var(--background-color);
+  border-radius: 15px;
+  cursor: pointer;
+  justify-content: space-evenly;
+
+  height: 6vh;
+  width: 20rem;
+}
+.tag-choices {
+  background-color: var(--background-color);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* color */
+.color-green {
+  background-color: #94d2bd;
+}
+.color-blue {
+  background-color: #ade8f4;
+}
+.color-orange {
+  background-color: #ffd166;
+}
+.color-red {
+  background-color: #f94144;
+}
+.color-violet {
+  background-color: #e0aaff;
+}
+/* footer */
+.add-btn {
+  background-color: blue;
+  color: var(--background-color);
+  border-radius: 5px;
+
+  height: 3rem;
+  width: 8rem;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  margin: 1rem;
+  cursor: pointer;
+}
