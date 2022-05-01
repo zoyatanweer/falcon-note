@@ -27,7 +27,7 @@
 .input {
   border: none;
   border-radius: 5px;
-  box-shadow: 0 3px 0 #e9ecef;
+  box-shadow: 0 3px 0 var(--desktop-searchbar-bg);
 
   padding: 1rem;
   height: 7vh;
@@ -88,7 +88,7 @@
 }
 .colored-note:hover,
 .priority-options:hover {
-  border: 2px solid black;
+  border: 2px solid var(--navigation-color);
   cursor: pointer;
 }
 .tag-options:hover,

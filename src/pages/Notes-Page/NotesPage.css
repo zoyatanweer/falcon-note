@@ -2,7 +2,8 @@
   max-height: 30%;
   max-width: 20%;
   flex-direction: column;
-  margin: 5rem 4.8rem 1rem;
+  /* margin: 5rem 4.8rem 1rem; */
+  margin: 5rem 2rem 1rem;
 }
 .side-nav-item {
   padding: 0.5rem;
@@ -38,10 +39,14 @@
 .page-content {
   display: flex;
   flex-direction: column;
-  margin: 3rem 1rem 1rem 3rem;
+  /* margin: 3rem 1rem 1rem 3rem; */
+  margin: 3rem 1rem 1rem 1rem;
 }
 
 /* filter */
+/* .filter-container {
+  width: 15%;
+} */
 .filter-title {
   justify-content: center;
 }
