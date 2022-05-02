@@ -2,6 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 import "../Header/Header.css";
+import { LogoutIcon } from "../../Assets/Svg/allsvg";
 
 const Header = () => {
   return (
@@ -9,9 +10,11 @@ const Header = () => {
       <div className="nav-brand title-theme">
         <Link to="/">Falcon Note</Link>
       </div>
-      <li className="list-item list-non-bullet">
+      <LogoutIcon className="right-nav-img" />
+
+      {/* <li className="list-item list-non-bullet">
         <NavLink to="/">SIGN UP</NavLink>
-      </li>
+      </li> */}
     </nav>
   );
 };

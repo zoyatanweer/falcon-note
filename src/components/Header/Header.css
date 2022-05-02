@@ -1,3 +1,67 @@
+/* desktop-nav */
+.link {
+  color: var(--navigation-color);
+  padding: 0;
+  margin-right: 2.5rem;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.navigation-container .link {
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: 1.8rem;
+}
+.navigation-container .link:hover {
+  color: var(--primary-color);
+}
+.list-non-bullet {
+  list-style: none;
+}
+.list-item {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.5rem;
+}
+.list-item:hover {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.navigation-container {
+  background-color: var(--background-color);
+  border-bottom: 1px solid black;
+  color: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+.navigation-container .nav-brand {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: left;
+}
+.nav-brand {
+  color: var(--primary-color);
+  text-align: left;
+  margin: 1rem auto 1rem 4.8rem;
+  cursor: pointer;
+}
+.navigation-container .title-theme a {
+  color: var(--primary-color);
+}
+.navigation-container .link-active {
+  color: var(--primary-color);
+}
+.navigation-container .nav-pills {
+  text-align: right;
+}
+ul {
+  padding-inline-start: 0px;
+  list-style: none;
+  margin-bottom: 0;
+}
+
 /* navigation */
 .right-nav li {
   padding: 0;
@@ -8,4 +72,10 @@
 }
 .right-nav-img:hover {
   fill: var(--primary-color);
+}
+.right-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }

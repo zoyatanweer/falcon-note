@@ -1,0 +1,82 @@
+/* filter-section */
+.filter-section {
+  flex-direction: column;
+  padding: 5px 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--light-theme-color);
+}
+.filter-divider {
+  background-color: var(--primary-color);
+  background-color: var(--light-theme-color);
+  height: 1.5px;
+  height: 1px;
+  width: 90%;
+}
+.filter-section-title {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.filter-item {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  padding: 0;
+}
+.filter-item:hover {
+  color: var(--text);
+}
+.filter-item-title {
+  border-radius: 25px;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.filter-item-title:hover {
+  cursor: pointer;
+  font-weight: 400;
+}
+.para-xsmall {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.two-items {
+  display: flex;
+}
+
+/* filter-item-title */
+/* .old-date {
+    background-color: #fbf8cc;
+  }
+  .new-date {
+    background-color: #c8e7ff;
+  }
+  .tag-work {
+    background-color: #9bf6ff;
+  }
+  .tag-exercise {
+    background-color: #ffd6a5;
+  }
+  .tag-health {
+    background-color: #ffc6ff;
+  }
+  .tag-chores {
+    background-color: #fdffb6;
+  }
+  .prio-low {
+    background-color: #caffbf;
+  }
+  .prio-medium {
+    background-color: #a0c4ff;
+  }
+  .prio-high {
+    background-color: #ffadad;
+  } */
+
+.filter-radio {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
