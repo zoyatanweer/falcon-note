@@ -42,38 +42,39 @@
   font-size: 1.6rem;
   font-weight: 500;
 }
-.two-items {
+.two-items,
+.two-elements-note {
   display: flex;
 }
 
 /* filter-item-title */
-/* .old-date {
-    background-color: #fbf8cc;
-  }
-  .new-date {
-    background-color: #c8e7ff;
-  }
-  .tag-work {
-    background-color: #9bf6ff;
-  }
-  .tag-exercise {
-    background-color: #ffd6a5;
-  }
-  .tag-health {
-    background-color: #ffc6ff;
-  }
-  .tag-chores {
-    background-color: #fdffb6;
-  }
-  .prio-low {
-    background-color: #caffbf;
-  }
-  .prio-medium {
-    background-color: #a0c4ff;
-  }
-  .prio-high {
-    background-color: #ffadad;
-  } */
+.old-date {
+  background-color: #fbf8cc;
+}
+.new-date {
+  background-color: #c8e7ff;
+}
+.tag-work {
+  background-color: #9bf6ff;
+}
+.tag-exercise {
+  background-color: #ffd6a5;
+}
+.tag-health {
+  background-color: #ffc6ff;
+}
+.tag-chores {
+  background-color: #fdffb6;
+}
+.prio-low {
+  background-color: #caffbf;
+}
+.prio-medium {
+  background-color: #a0c4ff;
+}
+.prio-high {
+  background-color: #ffadad;
+}
 
 .filter-radio {
   width: 14px;

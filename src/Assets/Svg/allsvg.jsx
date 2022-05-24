@@ -53,6 +53,17 @@ function LogoutIcon(props) {
   );
 }
 
+function SearchIcon(props) {
+  return (
+    <svg width="1em" height="1em" viewBox="0 0 24 24" {...props}>
+      <path
+        fill="#000000"
+        d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
+      ></path>
+    </svg>
+  );
+}
+
 function AddNewNote(props) {
   return (
     <svg width="2.5em" height="2.5em" viewBox="0 0 24 24" {...props}>
@@ -164,6 +175,18 @@ function PinIcon(props) {
     </svg>
   );
 }
+
+function EditIcon(props) {
+  return (
+    <svg width="1em" height="1em" viewBox="0 0 24 24" {...props}>
+      <path
+        fill="currentColor"
+        d="M3 17.46v3.04c0 .28.22.5.5.5h3.04c.13 0 .26-.05.35-.15L17.81 9.94l-3.75-3.75L3.15 17.1c-.1.1-.15.22-.15.36zM20.71 7.04a.996.996 0 0 0 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83l3.75 3.75l1.83-1.83z"
+      ></path>
+    </svg>
+  );
+}
+
 function WorkIcon(props) {
   return (
     <svg width="1em" height="1em" viewBox="0 0 24 24" {...props}>
@@ -181,6 +204,7 @@ export {
   TwitterIcon,
   CopyrightIcon,
   LogoutIcon,
+  SearchIcon,
   AddNewNote,
   NoteIcon,
   ArchiveIcon,
@@ -191,5 +215,6 @@ export {
   LabelIcon,
   PriorityIcon,
   PinIcon,
+  EditIcon,
   WorkIcon,
 };
